@@ -10,6 +10,17 @@ namespace LINQ_Problems
     {
         static void Main(string[] args)
         {
+            LINQProblemOne problemOne = new LINQProblemOne();
+            LINQProblemOne.ListReader();
+
+            LINQProblemTwo problemTwo = new LINQProblemTwo();
+            LINQProblemTwo.DupicateDeleter();
+
+            // LINQProblemThree problemThree = new LINQProblemThree();
+            // LINQProblemThree.GradeCalculator();
+
+            LINQProblemFour problemFour = new LINQProblemFour();
+            LINQProblemFour.WordMachine();
         }
     }
 }
